@@ -14,7 +14,9 @@
     </io.jenkins.blueocean.rest.impl.pipeline.credential.BlueOceanCredentialsProvider_-FolderPropertyImpl>
     <org.jenkinsci.plugins.pipeline.modeldefinition.config.FolderConfig plugin="pipeline-model-definition@1.2.4">
       <dockerLabel></dockerLabel>
-      <registry plugin="docker-commons@1.9"/>
+      <registry plugin="docker-commons@1.9">
+        <url>https://index.docker.io/v1/</url>
+      </registry>
     </org.jenkinsci.plugins.pipeline.modeldefinition.config.FolderConfig>
   </properties>
   <folderViews class="jenkins.branch.MultiBranchProjectViewHolder" plugin="branch-api@2.0.15">
@@ -33,12 +35,7 @@
     <daysToKeep>-1</daysToKeep>
     <numToKeep>-1</numToKeep>
   </orphanedItemStrategy>
-  <triggers>
-    <com.cloudbees.hudson.plugins.folder.computed.PeriodicFolderTrigger plugin="cloudbees-folder@6.2.1">
-      <spec>H H * * *</spec>
-      <interval>86400000</interval>
-    </com.cloudbees.hudson.plugins.folder.computed.PeriodicFolderTrigger>
-  </triggers>
+  <triggers/>
   <disabled>false</disabled>
   <sources class="jenkins.branch.MultiBranchProject$BranchSourceList" plugin="branch-api@2.0.15">
     <data>
