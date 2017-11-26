@@ -26,6 +26,10 @@
           <string>psick/integration</string>
           <boolean>true</boolean>
         </entry>
+        <entry>
+          <string>psick/al</string>
+          <boolean>true</boolean>
+        </entry>
       </data>
     </hudson.plugins.favorite.user.FavoriteUserProperty>
     <hudson.model.MyViewsProperty>
