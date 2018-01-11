@@ -3,8 +3,11 @@
   <fullName>noreply</fullName>
   <properties>
     <jenkins.security.ApiTokenProperty>
-      <apiToken>{AQAAABAAAAAwi2lY7lrD5UYZCghc4MFdvsVAuMuUQYyUmWtkVXf8sqaiddnYX7mBzlm6BTQ6jSZVcc4vD68aGWmmkmRDszSOOw==}</apiToken>
+      <apiToken>{AQAAABAAAAAwtAiPqXUOQ0XbVZ7mcKdzCg/B3LikL88XGW41JXDkMzak56kcUBrcxx/19j98Gp9/2vpQSi93pdAEzsyrPJg+3A==}</apiToken>
     </jenkins.security.ApiTokenProperty>
+    <io.jenkins.blueocean.autofavorite.user.FavoritingUserProperty plugin="blueocean-autofavorite@1.2.1">
+      <autofavoriteEnabled>true</autofavoriteEnabled>
+    </io.jenkins.blueocean.autofavorite.user.FavoritingUserProperty>
     <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@2.1.16">
       <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash"/>
     </com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty>
@@ -22,14 +25,14 @@
         </hudson.model.AllView>
       </views>
     </hudson.model.MyViewsProperty>
-    <org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty plugin="display-url-api@2.1.0">
+    <org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty plugin="display-url-api@2.2.0">
       <providerId>default</providerId>
     </org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty>
     <hudson.model.PaneStatusProperties>
       <collapsed/>
     </hudson.model.PaneStatusProperties>
     <hudson.plugins.perforce.PerforceUserProperty plugin="perforce@1.3.36"/>
-    <org.jenkinsci.plugins.p4.email.P4UserProperty plugin="p4@1.8.1"/>
+    <org.jenkinsci.plugins.p4.email.P4UserProperty plugin="p4@1.8.3"/>
     <hudson.search.UserSearchProperty>
       <insensitiveSearch>true</insensitiveSearch>
     </hudson.search.UserSearchProperty>

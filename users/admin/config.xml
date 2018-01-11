@@ -3,7 +3,7 @@
   <fullName>admin</fullName>
   <properties>
     <jenkins.security.ApiTokenProperty>
-      <apiToken>{AQAAABAAAAAwih/uDX2Rjud7M5NpG/TUQsBxk55oGKUNQ5dpPwppmNc8nj2KmcEKeIsmv90a7I248FTeKoh+uubxFfePhSokSA==}</apiToken>
+      <apiToken>{AQAAABAAAAAwiypD7+92RhdNSfGozwDJ06APrLFXIXAD8MHIGyLTD7+sQwC8kxwMNFSPjHL24PikD5/DCJOHzvr5+JvRBbVIsA==}</apiToken>
     </jenkins.security.ApiTokenProperty>
     <hudson.model.MyViewsProperty>
       <views>
@@ -17,20 +17,19 @@
       </views>
     </hudson.model.MyViewsProperty>
     <hudson.model.PaneStatusProperties>
-      <collapsed/>
+      <collapsed>
+        <string>buildHistory</string>
+      </collapsed>
     </hudson.model.PaneStatusProperties>
     <hudson.search.UserSearchProperty>
       <insensitiveSearch>true</insensitiveSearch>
     </hudson.search.UserSearchProperty>
     <hudson.security.HudsonPrivateSecurityRealm_-Details>
-      <passwordHash>#jbcrypt:$2a$10$NeCv00kVmybMl5vSTdlVKuIbRIhITHSKCclTn.s113pnNRxAEhsYS</passwordHash>
+      <passwordHash>#jbcrypt:$2a$10$LMkKgvlIKYads8UTHipjneMlplmRighsI.vvRWzdaj32v9QnSFVvO</passwordHash>
     </hudson.security.HudsonPrivateSecurityRealm_-Details>
-    <jenkins.security.LastGrantedAuthoritiesProperty>
-      <roles>
-        <string>authenticated</string>
-      </roles>
-      <timestamp>1510934066587</timestamp>
-    </jenkins.security.LastGrantedAuthoritiesProperty>
+    <io.jenkins.blueocean.autofavorite.user.FavoritingUserProperty plugin="blueocean-autofavorite@1.2.1">
+      <autofavoriteEnabled>true</autofavoriteEnabled>
+    </io.jenkins.blueocean.autofavorite.user.FavoritingUserProperty>
     <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@2.1.16">
       <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash">
         <entry>
@@ -53,7 +52,7 @@
               <id>github</id>
               <description>GitHub Access Token</description>
               <username>admin</username>
-              <password>{AQAAABAAAAAw6QDqQ0D0aCq2Ax91l6lP5Q8qdkEvsLE5FO4fkmwz7hOXgtmtOu38Atgx9HsE/C459tUxZvohFewcruPP00MuJg==}</password>
+              <password>{AQAAABAAAAAw+0p6SD6l1T2HQeqWdjc6TnsST1R4WIsAqP4kfhBWF6Nki7arahVQij9aEXPXEiMSCFG+ufy5uKDmTAEyGEerDg==}</password>
             </com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl>
           </list>
         </entry>
@@ -64,14 +63,20 @@
       <data class="concurrent-hash-map">
         <entry>
           <string>psick/production</string>
-          <boolean>false</boolean>
+          <boolean>true</boolean>
         </entry>
       </data>
     </hudson.plugins.favorite.user.FavoriteUserProperty>
-    <org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty plugin="display-url-api@2.1.0">
+    <org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty plugin="display-url-api@2.2.0">
       <providerId>default</providerId>
     </org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty>
     <hudson.plugins.perforce.PerforceUserProperty plugin="perforce@1.3.36"/>
-    <org.jenkinsci.plugins.p4.email.P4UserProperty plugin="p4@1.8.1"/>
+    <org.jenkinsci.plugins.p4.email.P4UserProperty plugin="p4@1.8.3"/>
+    <jenkins.security.LastGrantedAuthoritiesProperty>
+      <roles>
+        <string>authenticated</string>
+      </roles>
+      <timestamp>1512373171456</timestamp>
+    </jenkins.security.LastGrantedAuthoritiesProperty>
   </properties>
 </user>
